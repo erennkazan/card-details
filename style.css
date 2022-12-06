@@ -88,3 +88,17 @@ label{
     background-color: rgb(54, 44, 102);
     margin-top: 30px;
 }
+.text-cvc{
+    padding-left: 30px;
+}
+input{
+    border:none;
+}
+
+input:focus, textarea:focus
+{
+    border: 1px solid #ca7a2f;
+    box-shadow: 0 0 3px #ca7a2f;
+    outline-offset: 0px;
+    outline: none;
+}
